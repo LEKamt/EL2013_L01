@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Comparador_dos_bits_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Comparador_dos_bits_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="160.001 ns"></ZoomEndTime>
+      <Cursor1Time time="160.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="96"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/Comparador_dos_bits_TB/A_1s" type="logic">
+      <obj_property name="ElementShortName">A_1s</obj_property>
+      <obj_property name="ObjectShortName">A_1s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Comparador_dos_bits_TB/A_0s" type="logic">
+      <obj_property name="ElementShortName">A_0s</obj_property>
+      <obj_property name="ObjectShortName">A_0s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Comparador_dos_bits_TB/B_1s" type="logic">
+      <obj_property name="ElementShortName">B_1s</obj_property>
+      <obj_property name="ObjectShortName">B_1s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Comparador_dos_bits_TB/B_0s" type="logic">
+      <obj_property name="ElementShortName">B_0s</obj_property>
+      <obj_property name="ObjectShortName">B_0s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Comparador_dos_bits_TB/EQs" type="logic">
+      <obj_property name="ElementShortName">EQs</obj_property>
+      <obj_property name="ObjectShortName">EQs</obj_property>
+   </wvobject>
+</wave_config>
