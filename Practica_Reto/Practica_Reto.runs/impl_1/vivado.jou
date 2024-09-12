@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 12 17:23:25 2024
+# Process ID: 8568
+# Current directory: C:/Users/luisk/OneDrive/Documentos/2024-II/Circuitos digitales/Laboratorio_1/Practica_Reto/Practica_Reto.runs/impl_1
+# Command line: vivado.exe -log exp03.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source exp03.tcl -notrace
+# Log file: C:/Users/luisk/OneDrive/Documentos/2024-II/Circuitos digitales/Laboratorio_1/Practica_Reto/Practica_Reto.runs/impl_1/exp03.vdi
+# Journal file: C:/Users/luisk/OneDrive/Documentos/2024-II/Circuitos digitales/Laboratorio_1/Practica_Reto/Practica_Reto.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source exp03.tcl -notrace
