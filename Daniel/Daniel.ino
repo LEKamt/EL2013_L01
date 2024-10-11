@@ -3,7 +3,7 @@
 // ======================================================================
 
 #include <util/atomic.h>
-
+#include "Motor.h"
 
 
 // ======================================================================
@@ -27,24 +27,34 @@ int pos_P_aux = 0;           // Variable auxiliar de posición angular para rued
 int pos_L_aux = 0;           // Variable auxiliar de posición angular para rueda izquierda
 double fc = 0.016799961;     // Factor de conversión pulsos/s a rad/s  --> (2*pi)/(Pulsos Por Rev. * Relación Transmisión)
 int c = 50;
+
+
+
+// ======================================================================
+//                           Definición de motores
+// ======================================================================
+Motor motor_P(PWR_P, IN1, IN2, FA_P, FB_P);
+Motor motor_L(PWR_L, IN3, IN4, FA_L, FB_L);
+
+
 // ======================================================================
 //                                 Setup
 // ======================================================================
 
 void setup() {
-  // Configuración de pines de motores
-  pinMode(IN1, OUTPUT);
-  pinMode(IN2, OUTPUT);
-  pinMode(PWR_P, OUTPUT);
-  pinMode(IN3, OUTPUT);
-  pinMode(IN4, OUTPUT);
-  pinMode(PWR_L, OUTPUT);
+  // // Configuración de pines de motores
+  // pinMode(IN1, OUTPUT);
+  // pinMode(IN2, OUTPUT);
+  // pinMode(PWR_P, OUTPUT);
+  // pinMode(IN3, OUTPUT);
+  // pinMode(IN4, OUTPUT);
+  // pinMode(PWR_L, OUTPUT);
 
-  // Configuración de pines de encoders
-  pinMode(FA_P, INPUT);
-  pinMode(FB_P, INPUT);
-  pinMode(FA_L, INPUT);
-  pinMode(FB_L, INPUT);
+  // // Configuración de pines de encoders
+  // pinMode(FA_P, INPUT);
+  // pinMode(FB_P, INPUT);
+  // pinMode(FA_L, INPUT);
+  // pinMode(FB_L, INPUT);
 
   // Configuración de comunicación y lectura de encoders
   Serial.begin(9600);
